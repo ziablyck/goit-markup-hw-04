@@ -213,7 +213,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
 
-/* STCTION  TWO */
+/* SECTION  TWO */
 
 
 .section-principles {
@@ -245,7 +245,8 @@ width: calc((100% - 72px) / 4);
 display: flex;
 flex-direction: column;
 }
-.principles-list-box .icon-box {
+/* .principles-list-box  */
+.icon-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,12 +256,8 @@ flex-direction: column;
     border-radius: 4px;
     border: 1px solid #8E8F99;
     background-color: #F4F4FD;
-    gap: 8px;
+    /* gap: 8px; */
     margin-bottom: 8px;
-}
-
-.principles-icon {
-
 }
 
 .principles-subtitle {
